@@ -1,9 +1,6 @@
-# Project Name
+# Transformers for Time-series Forecasting
 
-## Structure of the Repository
-
-This repository uses `setuptool` to create packages and uses `toml` file for package configuration
-
+This repository contains code, notebooks.
 ```text
 ├── Dockerfile               # The file to build a container using build a or docker container
 ├── CONTRIBUTING.md          # Onboarding instructions for new contributors
@@ -17,7 +14,7 @@ This repository uses `setuptool` to create packages and uses `toml` file for pac
 ├── LICENSE                  # The license for the project
 ├── Makefile                 # A collection of utilities to manage the project
 ├── MANIFEST.in              # A list of files to include in a package
-├── src/{project_name}       # The main python package for the project
+├── src/{transformers_ts}       # The main python package for the project
 │   ├── __init__.py          # This tells Python that this is a package
 │   ├── info.py              # Project info [Author, version]
 ├── data                     # Required data
@@ -26,7 +23,6 @@ This repository uses `setuptool` to create packages and uses `toml` file for pac
 ├── README.md                # The main readme for the project
 ├── requirements.txt         # List of requirements for the project
 ├── requirements-test.txt    # List of requirements for testing and development
-├── pyproject.toml           # The file for installing and packaging the project
 └── tests                    # Unit tests for the project (add mote tests files here)
     ├── data                 # Data and fixtures for pytest
     ├── __init__.py          # This tells Python that this is a test package
